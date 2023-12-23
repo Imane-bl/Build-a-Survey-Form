@@ -1,0 +1,126 @@
+*{
+    margin: 0; 
+    padding:0; 
+    box-sizing: border-box;
+ }
+
+
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  
+  font-family:'poppins', sans-serif;
+  line-height: 1,6;
+  background-color:#1b1b32; 
+  color: #fff;
+
+
+}
+
+#container{
+  max-width: 740px;
+  margin: 4rem auto;
+  padding: .6rem; 
+  
+}
+#title{
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 9px;
+  line-height: 1.2;
+  font-weight: 400;
+ 
+
+}
+#description {
+  text-align:center;
+  font-style: italic;
+  opacity: 0.8;
+  padding: .2rem;
+  font-size: 1.1rem;
+  margin-bottom: 30px; text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    font-weight: 195;
+  
+  }
+  #survey-form{
+    background-color: rgba(27, 27, 50, 0.8);
+ border-radius: 6px;
+padding: 3rem 2.5rem;
+
+
+ }
+ span{
+  font-size: 15;
+ }
+ .two{
+margin-top: 25px;
+margin-bottom: 5px;
+ }
+
+ .form-group{
+   margin-bottom: 20px;
+font-size:1.3rem;
+ }
+.form-group label{
+  display: block;
+font-size: 17px;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if there isn't enough space */
+}
+
+.checkbox-group input[type="checkbox"],
+.checkbox-group label {
+    margin-right: 20px; /* Adjust the spacing between checkboxes and labels */
+} 
+
+
+#name,#email,#number,#dropdown,#radio,#favorite,#comments,#submit{
+  width: 100%;
+padding: .6rem;
+border-radius: 6px;
+font-size: 1.1rem;
+border: 1px solid #eee;
+
+
+}
+ .one :focus {
+  outline: 0.21rem solid rgba(29, 86, 160, 0.8);
+  
+  }
+
+  
+
+
+#survey-form .form-group:nth-child(5) label{
+  display: inline;
+  padding: 2px;
+  margin-bottom: 40px;
+  
+}
+P{
+  margin-bottom: 7px;
+}
+.form-group textarea{
+  height: 130px;
+  font-size: 1.1rem;
+  border-radius: 3px;
+}
+#submit{
+
+background-color:#37af65;
+  width: 100%;
+  color: white;
+  border: 1px #37af65;
+  border-radius: 3px;
+  padding: 15px;
+  margin-top: 18px;
+  font-size: 1.1rem;
+  
+}
+#submit:hover{
+   cursor:pointer;
+}
